@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Models
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Experiment outputs
+logs/
+results/
+outputs/
+checkpoints/
+
+# Datasets
+data/
+datasets/
+
+# IDE
+.vscode/
+.idea/
+
